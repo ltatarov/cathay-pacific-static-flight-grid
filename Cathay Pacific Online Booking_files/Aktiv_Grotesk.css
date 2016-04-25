@@ -1,0 +1,32 @@
+/*version 5.0 : CR 09080418: WWW-CX-ICEWEB: Change Font hosting : BEV2015-01*/
+@font-face{
+font-family:"Aktiv Grotesk W01 Regular";
+src:url("../../Fonts/CathayPacific_WCorp_Rg.eot");
+src:url("../../Fonts/CathayPacific_WCorp_Rg.eot?#iefix") format("embedded-opentype"),
+    url("../../Fonts/CathayPacific_WCorp_Rg.ttf") format("truetype"),
+    url("../../Fonts/CathayPacific_WCorp_Rg.woff") format("woff");
+}
+
+@font-face{
+font-family:"Aktiv Grotest W01 Light1370681";
+src:url("../../Fonts/CathayPacific_WCorp_Lt.eot");
+src:url("../../Fonts/CathayPacific_WCorp_Lt.eot?#iefix") format("embedded-opentype"),
+    url("../../Fonts/CathayPacific_WCorp_Lt.ttf") format("truetype"),
+    url("../../Fonts/CathayPacific_WCorp_Lt.woff") format("woff");
+}
+
+@font-face{
+font-family:"Aktive Grotest W01 Medium";
+src:url("../../Fonts/CathayPacific_WCorp_Md.eot");
+src:url("../../Fonts/CathayPacific_WCorp_Md.eot?#iefix") format("embedded-opentype"),
+    url("../../Fonts/CathayPacific_WCorp_Md.ttf") format("truetype"),
+    url("../../Fonts/CathayPacific_WCorp_Md.woff") format("woff");
+}
+
+@font-face{
+font-family:"Aktive Grotest W01 Bold1370651";
+src:url("../../Fonts/CathayPacific_WCorp_Bd.eot");
+src:url("../../Fonts/CathayPacific_WCorp_Bd.eot?#iefix") format("embedded-opentype"),
+    url("../../Fonts/CathayPacific_WCorp_Bd.ttf") format("truetype"),
+    url("../../Fonts/CathayPacific_WCorp_Bd.woff") format("woff");
+}

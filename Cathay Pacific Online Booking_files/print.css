@@ -1,0 +1,100 @@
+@media print
+{
+body  { background: white; font-size:12px; }
+.cx-plane-large { display:none;}
+
+/* GERARD MOREAU PTR 06210652 09-10-12 */
+
+#container {margin:0 0 0 -40px;}
+
+.layout1 #centerPanel, #subWrapper {width: 700px;}
+
+.layout1 table.itinerary-grid, table.itinerary, p{width: 640px; text-align: left;}
+#business td div {
+    width: auto !important;
+}
+table.itinerary-grid td {
+    width: auto;
+    padding: 10px 5px;
+    font-size:12px;
+    white-space: normal;
+}
+#getUpgrade{
+	width:600px !important;
+}
+#getUpgrade table{
+	width:100%;
+}
+#getUpgrade p{
+	width:auto;
+}
+#business div{width: 640px;}
+
+#business div.pax{width: 640px;}
+
+#navigation{width:auto;}
+
+div#imp_info{width: 640px; text-align: left;}
+
+#header{width:640px;}
+
+#header .enlarge-text{display:none;}
+
+table.asiaMilesEarnd {
+    width: 640px;
+}
+#pageCONF #business {width:640px !important;}
+#login{margin-left:200px;}
+
+/* GERARD MOREAU PTR 06388525 30-11-12 */
+
+#footer {width: 640px;}
+
+.log-btn .btn input{background: none;}
+
+.note{width: 640px; text-align: left}
+
+/* GERARD MOREAU PTR 066691316 28-02-13 */
+
+#login .log-btn, #login .expandArrow{display: none;}
+
+#login .username{width: auto; white-space: nowrap; margin-right: 60px;}
+
+/* Ben PTR 06691316 */
+/* #hdrBanner{display: none;} */
+#hdrBanner{ left:-25px; } /* move the OW logo out of the way if it was displayed */
+.logoDisp > IMG { margin-left:60px; } /* push the MP logo from overwriting the CX logo */
+
+#PrintHeaderLogo {display:inline !important;}
+.backGround{background-color:#ffffff !important;}
+#headerLogo {margin-top:none !important;display:none;}
+#popupHeaderLogo {margin-top:none !important;}
+#buttons {display:none !important;}
+input[type="radio"] {position:static !important; -webkit-appearance:radio;}
+#lowestPriceImg {display:inline !important;position:relative !important; float: left !important;}
+.calenderTable td {padding:0px !important; vertical-align:top !important;}
+.selectBox {display: inline !important;}
+.selectBox-label {display:none !important;}
+input[type="checkbox"] {position: static !important;-webkit-appearance:checkbox; height:15px;width:15px;}
+#opImage{display:inline !important; position: relative !important; left:-3px !important; top:-3px !important;}
+#trImage{display:inline !important; position: relative !important; left:-3px !important; top:-3px !important;}
+#visaImage{display:inline !important; position: relative !important; left:-3px !important; top:-3px !important;}
+#fareAmount {float:none !important;}
+.css-span {background-image:none !important;}
+#passengerArea{width:70px !important;}
+#pageALPI #business{width:900px !important;}
+.specialAssistance{width:500px !important;}
+.advPassInfo{width:500px !important;}
+.advPassInfo p{width:500px !important;}
+
+
+
+/* Swayam IR 07608437 */
+div#Dyc_CONF_body_1 {width: 640px !important;}
+div#Dyc_CONF_body_1 p {width: auto !important;}
+}
+.bohDeadline{width:520px !important;}
+.bohDeadline p {width : 500px !important; word-break : break-all;}
+.toolIcons{margin-bottom:25px !important;}
+.toolIcons{margin-bottom:25px !important;display:none !important;}
+.help{display:none !important;}
